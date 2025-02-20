@@ -108,6 +108,7 @@ const WorkExperience: React.FC = () => {
           title="Personal Finance Tool"
           description="An innovative tool for personal finance management with cutting-edge analytics."
         />
+        <p>Asad</p>
       </div>
     </div>
   );
