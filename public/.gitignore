@@ -2,3 +2,6 @@ node_modules
 dist
 .env
 .DS_Store
+# Ignore video files
+src/assets/*.mp4
+public/*.mp4
