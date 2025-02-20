@@ -1,6 +1,4 @@
 import React, { useRef } from "react";
-import vid1 from "../../assets/4114797-uhd_3840_2160_25fps.mp4";
-import vid2 from "../../assets/5532774-uhd_4096_2160_25fps.mp4"; // Add a different video source
 
 interface ProjectCardProps {
   title: string;
@@ -78,7 +76,7 @@ const FeaturedProjects: React.FC = () => {
           <ProjectCard
             title="Example Project 1"
             description="A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more."
-            videoSrc={vid1} // Use the first video source
+            videoSrc={""} // Use the first video source
             isLeftAligned={true}
           />
 
@@ -86,7 +84,7 @@ const FeaturedProjects: React.FC = () => {
           <ProjectCard
             title="Example Project 2"
             description="A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more."
-            videoSrc={vid2} // Use the second video source
+            videoSrc={""} // Use the second video source
             isLeftAligned={false}
           />
           {/* <div className="absolute bottom-0 left-0 right-0 h-[24rem] bg-gradient-to-t from-bgColor via-bgColor to-transparent" /> */}
