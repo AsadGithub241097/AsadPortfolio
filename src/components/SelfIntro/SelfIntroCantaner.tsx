@@ -1,18 +1,10 @@
 import React from "react";
 import profileImg from "../../assets/testimg.png"; // Import the image
 import Arrow from "../../icons//Arrow";
-import woodTable from "../../assets/w2.jpg";
 import SoftwareEngineerDesignation from "./designation";
 const SoftwareEngineerProfile: React.FC = () => {
   return (
     <section className="bg-bgColor px-6 text-white">
-      {" "}
-      {/* //bg-bgColor */}
-      {/* <img
-        src="/pexels-captainsopon-3409734.jpg"
-        alt="Background"
-        className="fixed left-0 top-0 -z-10 h-full w-full object-cover"
-      /> */}
       <div className="flex flex-col items-center">
         <div className="flex max-h-[400px] flex-row gap-[50px] pt-[120px] text-center">
           <div className="flex items-center space-x-3">

@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState, useRef } from "react";
 import gsap from "gsap";
 
 interface WorkExperienceCardProps {
@@ -25,7 +25,8 @@ const WorkExperienceCard: React.FC<WorkExperienceCardProps> = ({
       x: leftX - bounds.width / 2,
       y: topY - bounds.height / 2,
     };
-    const distance = Math.sqrt(center.x ** 2 + center.y ** 2);
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+    // const distance = Math.sqrt(center.x ** 2 + center.y ** 2);
 
     // Using GSAP to animate card rotation and scaling
     gsap.to(cardRef.current, {

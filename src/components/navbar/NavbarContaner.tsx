@@ -2,16 +2,11 @@ import React from "react";
 import AMLogo from "../../icons/AMLogo";
 
 interface NavbarProps {
-  onHomeClick: () => void;
   onAboutClick: () => void;
   onLabClick: () => void;
 }
 
-const Navbar: React.FC<NavbarProps> = ({
-  onHomeClick,
-  onAboutClick,
-  onLabClick,
-}) => {
+const Navbar: React.FC<NavbarProps> = ({ onAboutClick, onLabClick }) => {
   return (
     <nav className="bg-gray-900 text-white">
       <div className="fixed top-0 z-10 flex w-full items-center justify-between bg-navBg px-4 backdrop-blur-md md:px-8">
