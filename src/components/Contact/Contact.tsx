@@ -17,6 +17,7 @@ const Contact: React.FC<ContactProps> = ({ children, className = "" }) => {
         through accessible design. or have a project in mind? Let's connect.
       </p>
       {children}
+      <p>Asad</p>
     </div>
   );
 };
